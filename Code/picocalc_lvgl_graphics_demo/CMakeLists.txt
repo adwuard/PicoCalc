@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 
 # Setup board for Pico 1
-set(PICO_BOARD pico)
+# set(PICO_BOARD pico)
 
 # Setup board for Pico 2W
-# set(PICO_BOARD pico2)
+set(PICO_BOARD pico2)
 
 include(pico_sdk_import.cmake)
 
